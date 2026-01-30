@@ -6,7 +6,7 @@ This repository contains the implementation of WaveFusion-Net trained on the **G
 
 ---
 
-## 📊 Results
+##  Results
 
 | Metric | Value |
 |--------|-------|
@@ -30,13 +30,13 @@ This repository contains the implementation of WaveFusion-Net trained on the **G
 | **WaveFusion-Net** | 2025 | **9.48M** | 29.29 | 0.8838 |
 
 **Key Highlights:**
-- ✅ **Smallest model** among recent methods (45% smaller than NAFNet)
-- ✅ Novel dual-branch wavelet-spatial architecture
-- ✅ Efficient training (under 12 hours on 2 GPUs)
+- **Smallest model** among recent methods (45% smaller than NAFNet)
+   Novel dual-branch wavelet-spatial architecture
+-  Efficient training (under 12 hours on 2 GPUs)
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 WaveFusion-Net employs a **dual-branch encoder-decoder** design:
 
@@ -53,7 +53,7 @@ WaveFusion-Net employs a **dual-branch encoder-decoder** design:
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 ```bash
@@ -103,7 +103,7 @@ with torch.no_grad():
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 GOPRO/
@@ -117,7 +117,7 @@ GOPRO/
 
 ---
 
-## 📈 Training Logs
+##  Training Logs
 
 **Final Epoch (120):**
 - Training Loss: 0.3870
@@ -133,7 +133,7 @@ GOPRO/
 
 ---
 
-## 🖼️ Visual Results
+##  Visual Results
 
 See `sample_0_comparison.png` through `sample_9_comparison.png` for per-image comparisons showing:
 - Blur Input
@@ -144,7 +144,7 @@ The `visual_comparison.png` provides a comprehensive grid view of all test sampl
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
 1. **Efficient Architecture**: 9.48M parameters vs. 17M+ for competitors
 2. **Multi-Scale Processing**: Wavelet decomposition captures frequency details
@@ -153,7 +153,7 @@ The `visual_comparison.png` provides a comprehensive grid view of all test sampl
 
 ---
 
-## 📝 Citation
+##  Citation
 
 If you use this work, please cite:
 ```bibtex
@@ -167,13 +167,13 @@ If you use this work, please cite:
 
 ---
 
-## 📜 License
+##  License
 
 This project is released under the MIT License.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - GoPro dataset: [Nah et al., CVPR 2017](https://seungjunnah.github.io/Datasets/gopro)
 - NAFNet architecture inspiration
@@ -181,6 +181,6 @@ This project is released under the MIT License.
 
 ---
 
-## 📧 Contact
+## Contact
 
 For questions or collaborations, open an issue or reach out via GitHub.
